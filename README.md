@@ -54,7 +54,7 @@ Each table is designed with constraints to ensure data integrity:
 - `blood_transaction(transaction_id, donor_id, bloodtype, quantity, transaction_date)`
 - `blood_transaction_log(log_id, transaction_id, action_type, action_date)`
 
-Refer to `/database/schema.sql` for full table creation scripts.
+Refer to `/s.sql` for full table creation scripts.
 
 ---
 
