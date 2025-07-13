@@ -15,7 +15,6 @@ A comprehensive and secure software solution designed to streamline and digitize
 8. [Results & Frontend Screenshots](#-results--frontend-screenshots)
 9. [Discussion](#-discussion)
 10. [How to Run](#-how-to-run)
-11. [License](#-license)
 
 ---
 
