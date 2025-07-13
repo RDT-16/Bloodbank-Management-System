@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+rel="stylesheet">
+<style>
+body {
+font-family: 'Roboto', sans-serif;
+background-color: #f7f7f7;
+margin: 0;
+padding: 0;
+}
+.container {
+max
+-width: 800px;
+margin: 50px auto;
+padding: 20px;
+background
+-color: #fff;
+border
+-radius: 8px;
+box
+-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+h2
+{
+color: #c0392b;
+margin
+-bottom: 20px;
+text
+-align: center;
+}
+.table
+-container
+{
+overflow
+-x: auto;
+}
+table
+{
+width: 100%;
+border
+-collapse: collapse;
+}
+th, td
+{
+padding: 10px;
+text
+-align: left;
+border
+-bottom: 1px solid #ddd;
+}
+tr:nth
+-child(even)
+{
+background
+-color: #f9f9f9;
+}
+tr:hover
+{
+background
+-color: #f2f2f2;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h2>Admin Dashboard</h2>
+<div class="table
+-container">
+<table id="dataTable">
+<thead>
+<tr>
+<th>Name</th>
+<th>Blood Group</th>
+<th>Contact Number</th>
+<th>Email</th>
+</tr>
+</thead>
+<tbody>
+<!-- Data will be populated dynamically using JavaScript -->
+</tbody>
+</table>
+</div>
+</div>
+<script>
+// Sample data (replace with actual data source)
+var sampleData = [
+{ name: "John Cena", bloodGroup: "O+", contactNumber: "1434592134", email:
+"john@gmail.com" },
+{ name: "Geno Smith", bloodGroup: "A-", contactNumber: "9831062020", email:
+"Geno@gmail.com" },
+{ name: "Brad", bloodGroup: "B-", contactNumber: "1476543223", email:
+"uihk@gmail.com" },
+{ name: "rithik", bloodGroup: "AB+", contactNumber: "8091172724", email:
+"bin@gmail.com" }
+// Add more sample data as needed
+];
+// Function to populate the table with data
+function populateTable() {
+var tableBody = document.querySelector("#dataTable tbody");
+sampleData.forEach(function(data) {
+var row = document.createElement("tr");
+row.innerHTML = "<td>" + data.name + "</td>" +
+"<td>" + data.bloodGroup + "</td>" +
+"<td>" + data.contactNumber + "</td>" +
+"<td>" + data.email + "</td>";
+tableBody.appendChild(row);
+});
+}
+// Populate the table when the page loads
+window.onload = populateTable;
+</script>
+</body>
+</html>
