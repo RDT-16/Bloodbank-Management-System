@@ -55,10 +55,10 @@ Each table is created with appropriate constraints to maintain data integrity.
 
 **Table Creation Screenshots:**
 
-![Table 1](doc/fig(b).png)
-![Table 2](doc/fig(c).png)
-![Table 3](doc/fig(d).png)
-![Table 4](doc/fig(e).png)
+![Table 1](docs/fig(b).png)
+![Table 2](docs/fig(c).png)
+![Table 3](docs/fig(d).png)
+![Table 4](docs/fig(e).png)
 
 ---
 
@@ -74,12 +74,12 @@ Demonstrated use of:
 
 **Example Tables:**
 
-![Donor Table](doc/fig(f).png)
-![Receptionist Table](doc/fig(g).png)
-![Blood Table](doc/fig(h).png)
-![Blood Bank Table](doc/fig(i).png)
-![Blood Transaction Table](doc/fig(j).png)
-![Blood Transaction Log](doc/fig(k).png)
+![Donor Table](docs/fig(f).png)
+![Receptionist Table](docs/fig(g).png)
+![Blood Table](docs/fig(h).png)
+![Blood Bank Table](docs/fig(i).png)
+![Blood Transaction Table](docs/fig(j).png)
+![Blood Transaction Log](docs/fig(k).png)
 
 ---
 
@@ -91,11 +91,11 @@ Demonstrated use of:
 
 **Illustrations:**
 
-![Donor Table - Normal](doc/fig(l).png)
-![1NF Violation](doc/fig(m).png)
-![2NF Violation](doc/fig(n).png)
-![Normalized Doctors Table](doc/fig(o).png)
-![Normalized Address Table](doc/fig(p).png)
+![Donor Table - Normal](docs/fig(l).png)
+![1NF Violation](docs/fig(m).png)
+![2NF Violation](docs/fig(n).png)
+![Normalized Doctors Table](docs/fig(o).png)
+![Normalized Address Table](docs/fig(p).png)
 
 ---
 
@@ -111,12 +111,12 @@ Mechanisms implemented:
 
 **Visuals:**
 
-![Transaction Table](doc/fig(q).png)
-![Transaction Log](doc/fig(r).png)
-![Donor Snapshot 1](doc/fig(s).png)
-![Donor Snapshot 2](doc/fig(t).png)
-![Donor Snapshot 3](doc/fig(u).png)
-![Donor Snapshot 4](doc/fig(v).png)
+![Transaction Table](docs/fig(q).png)
+![Transaction Log](docs/fig(r).png)
+![Donor Snapshot 1](docs/fig(s).png)
+![Donor Snapshot 2](docs/fig(t).png)
+![Donor Snapshot 3](docs/fig(u).png)
+![Donor Snapshot 4](docs/fig(v).png)
 
 ---
 
@@ -124,9 +124,9 @@ Mechanisms implemented:
 
 | Page | Screenshot |
 |------|------------|
-| User Signup | ![Signup](doc/fig(w).png) |
-| Admin Login & Donation Confirm | ![Login & Confirm](doc/fig(x)_fig(y).png) |
-| Admin Dashboard | ![Dashboard](doc/fig(z).png) |
+| User Signup | ![Signup](docs/fig(w).png) |
+| Admin Login & Donation Confirm | ![Login & Confirm](docs/fig(x)_fig(y).png) |
+| Admin Dashboard | ![Dashboard](docs/fig(z).png) |
 
 ---
 
