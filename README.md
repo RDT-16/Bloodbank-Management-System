@@ -38,7 +38,7 @@ Key entities include: `Donor`, `Recipient`, `BloodSpecimen`, `BloodBank`, `Manag
 - Full and partial relationships are modeled accurately.
 - One-to-one, one-to-many, and many-to-many relationships are implemented via foreign keys.
 
-![ER Diagram](doc/fig(a).png)
+![ER Diagram](docs/fig(a).png)
 
 ---
 
